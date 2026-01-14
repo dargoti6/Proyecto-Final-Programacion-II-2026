@@ -1,15 +1,8 @@
 ### IntelliJ IDEA ###
-.idea/
-*.iml
-*.ipr
-*.iws
-
 out/
 !**/src/main/**/out/
 !**/src/test/**/out/
-
-### Kotlin (si aplica) ###
-.kotlin/
+.kotlin
 
 ### Eclipse ###
 .apt_generated
@@ -19,7 +12,6 @@ out/
 .settings
 .springBeans
 .sts4-cache
-
 bin/
 !**/src/main/**/bin/
 !**/src/test/**/bin/
@@ -34,14 +26,5 @@ bin/
 ### VS Code ###
 .vscode/
 
-### Build tools (Java) ###
-target/
-build/
-
-### Compilados / logs ###
-*.class
-*.log
-
-### OS ###
+### Mac OS ###
 .DS_Store
-Thumbs.db
